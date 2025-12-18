@@ -1,0 +1,39 @@
+# 環境変数
+.env
+.env.local
+.env*.local
+
+# 依存関係
+node_modules/
+package-lock.json
+yarn.lock
+
+# ビルドファイル
+.next/
+.vercel/
+dist/
+build/
+
+# ログ
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OSファイル
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 一時ファイル
+*.tmp
+*.temp
+.cache/
+
